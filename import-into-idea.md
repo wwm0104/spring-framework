@@ -4,7 +4,8 @@ The following has been tested against Intellij IDEA 13.1
 
 _Within your locally cloned spring-framework working directory:_
 
-1. Pre-compile `spring-oxm` with `./gradlew cleanIdea :spring-oxm:compileTestJava`
+1. Pre-compile `spring-oxm` with `./gradlew cleanIdea :spring-oxm:compileTestJava`  
+  **PS:window下面是源码所在的目录(自己clone),然后运行 gradlew xxx**
 2. Import into IDEA (File->import project->import from external model->Gradle)
 3. Set the Project JDK as appropriate (1.8+)
 4. Exclude the `spring-aspects` module (Go to File->Project Structure->Modules)
